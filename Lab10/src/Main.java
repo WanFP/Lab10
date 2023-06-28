@@ -1,5 +1,5 @@
 //EJERCICIOS WANDA FUEMTES C23061
-//KATHERIN ROMERO C26941
+//KATHERIN ROMERO C26941 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -75,5 +75,11 @@ public class Main {
 
         }
         return result;
+    }
+    // Lab 11
+    public static long solve(int n, int m) {
+        long corte = (long)n*m-1;
+        return corte;
+
     }
 }
